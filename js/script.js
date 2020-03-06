@@ -120,42 +120,42 @@
 
 
 
-//arrays
-// var a = ["hello", "hahaha", 21, 20.4];
-// console.log(a);
-//
-// var b = [];
-// console.log(b);
-// b[0] = "Hello";
-//
-// a[4] = "fdgdg";
-// console.log(a);
-//
-// a[4] = "new value";
-// console.log(a);
-//
-// a.push("pushed new element");
-// console.log(a);
-//
-// a.pop()
-// console.log(a);
+arrays
+var a = ["hello", "hahaha", 21, 20.4];
+console.log(a);
 
-//queue
-//add item to the beginning of queue.
-// a.unshift("unshifted element");   //push
-// a.shift();    //pop
-// console.log(a);
+var b = [];
+console.log(b);
+b[0] = "Hello";
+
+a[4] = "fdgdg";
+console.log(a);
+
+a[4] = "new value";
+console.log(a);
+
+a.push("pushed new element");
+console.log(a);
+
+a.pop()
+console.log(a);
+
+queue
+add item to the beginning of queue.
+a.unshift("unshifted element");   //push
+a.shift();    //pop
+console.log(a);
+
+a.forEach(function(item){
+  console.log(item);
+})
+
 //
-// a.forEach(function(item){
-//   console.log(item);
-// })
-//
-// //
-// function showAlert(item){
-//   alert(item);
-// }
-//
-// a.forEach(showAlert);
+function showAlert(item){
+  alert(item);
+}
+
+a.forEach(showAlert);
 
 //array exercise1
 var userList = [];
@@ -169,7 +169,7 @@ do{
 
   } else if(userInput == "list"){
 
-    
+
 
     // let list = document.createElement('ul');
 
