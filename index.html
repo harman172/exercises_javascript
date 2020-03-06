@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      .dice-game {
+        text-align: center;
+      }
+      .player1 {
+          display: inline-block;
+          float: left;
+      }
+      .player2 {
+          display: inline-block;
+          margin: 0px 50px;
+      }
+      button {
+          display: block;
+          margin: 20px;
+          padding: 10px 35px;
+      }
+    </style>
+  </head>
+  <body>
+
+
+    <div class="dice-game">
+      <div class="player1">
+        <img id="player1" src="images/dice1.png" alt="Player 1">
+        <button type="button" name="button" id="btnPlayer1" onClick="rollDice(this.id)">Player1</button>
+        <h3 id="score1">0</h3>
+      </div>
+
+      <div class="player2">
+        <img id="player2" src="images/dice1.png" alt="Player 2">
+        <button type="button" name="button" id="btnPlayer2" onClick="rollDice(this.id)">Player2</button>
+        <h3 id="score2">0</h3>
+      </div>
+    </div>
+
+    <div>
+      <ul id="users-list">
+
+      </ul>
+
+    </div>
+
+
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+  </body>
+</html>
